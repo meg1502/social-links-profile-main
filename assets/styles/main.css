@@ -88,15 +88,14 @@ body {
     border-radius: 10px;
     padding: var(--space-150);
     margin-top: var(--space-150);
+    text-decoration: none;
     transition: background-color 0.5s ease;
+    align-content: center;
+    text-align: center;
 }
 
 .btn-link:hover {
  background-color: var(--color-green);
  color: var(--color-grey-900);
  cursor: pointer;
-}
-
-main a {
- width: 100%;
 }
